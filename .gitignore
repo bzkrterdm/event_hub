@@ -1,0 +1,39 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.idea/
+.vscode/
+.cursor/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+
+# Claude Code
+.claude/
+
+# ---- API (Node.js / TypeScript) ----
+event_hub_api/node_modules/
+event_hub_api/dist/
+event_hub_api/*.db
+event_hub_api/*.db-shm
+event_hub_api/*.db-wal
+
+# ---- App (Flutter / Dart) ----
+event_hub_app/.dart_tool/
+event_hub_app/.flutter-plugins-dependencies
+event_hub_app/.pub-cache/
+event_hub_app/.pub/
+event_hub_app/build/
+event_hub_app/coverage/
+event_hub_app/**/doc/api/
+event_hub_app/**/ios/Flutter/.last_build_id
+event_hub_app/pubspec.lock
+
+# SQLite database files at root level
+*.db
+*.db-shm
+*.db-wal
