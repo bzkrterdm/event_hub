@@ -35,8 +35,41 @@ event_hub/
 
 ### Prerequisites
 
-- **Node.js** (v18+) and **npm**
-- **Flutter SDK** (3.9+)
+#### Node.js (v18+)
+
+Download and install from [https://nodejs.org](https://nodejs.org) (LTS recommended). This also installs `npm`.
+
+Verify installation:
+
+```bash
+node --version
+npm --version
+```
+
+#### Flutter SDK (3.9+)
+
+1. Follow the official installation guide for your OS: [https://docs.flutter.dev/get-started/install](https://docs.flutter.dev/get-started/install)
+2. Add Flutter to your system PATH
+3. Run Flutter doctor to check everything is set up:
+
+```bash
+flutter doctor
+```
+
+> **macOS:** You may also need Xcode (for iOS) or Android Studio (for Android emulator).
+> **Windows:** You may need Android Studio and the Android SDK.
+> **All platforms:** For web development, only Chrome is required.
+
+#### Git
+
+Download and install from [https://git-scm.com](https://git-scm.com).
+
+#### Clone the Repository
+
+```bash
+git clone https://github.com/bzkrterdm/event_hub.git
+cd event_hub
+```
 
 ### 1. Backend (API)
 
